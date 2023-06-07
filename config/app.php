@@ -169,6 +169,7 @@ return [
         Api\Providers\EventServiceProvider::class,
         Api\Providers\RouteServiceProvider::class,
         Ecotone\Laravel\EcotoneProvider::class,
+        Api\Providers\ProductProvider::class,
     ])->toArray(),
 
     /*
