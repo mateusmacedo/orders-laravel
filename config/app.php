@@ -167,7 +167,8 @@ return [
         Api\Providers\AuthServiceProvider::class,
         // Api\Providers\BroadcastServiceProvider::class,
         Api\Providers\EventServiceProvider::class,
-        Api\Providers\RouteServiceProvider::class
+        Api\Providers\RouteServiceProvider::class,
+        Ecotone\Laravel\EcotoneProvider::class,
     ])->toArray(),
 
     /*
